@@ -1,5 +1,37 @@
 {
-    "latest_version": "1.2.0",
-    "description": "Ajout d'un bouton pour vider les téléchargements 🗑️ et d'un bouton pour stopper les téléchargements en cours ⏹️.",
+    "latest_version": "1.3.0",
+    "description": "Téléchargement par lots (max 100 fichiers) 📦, création automatique des dossiers 📁, meilleure stabilité des téléchargements ⚡ et interface optimisée 🔄",
+    "features": {
+        "major_improvements": {
+            "title": "🔹 Améliorations majeures",
+            "items": [
+                "Ajout d'un système de téléchargement par lots (maximum 100 fichiers par lot)",
+                "Optimisation de la gestion de la mémoire lors des téléchargements volumineux"
+            ]
+        },
+        "new_features": {
+            "title": "🔹 Nouvelles fonctionnalités",
+            "items": [
+                "Création automatique de dossiers de téléchargement par page",
+                "Meilleure gestion des fichiers temporaires (.crdownload)"
+            ]
+        },
+        "fixes_and_optimizations": {
+            "title": "🔹 Corrections et optimisations",
+            "items": [
+                "Amélioration de la stabilité lors de l'arrêt des téléchargements",
+                "Optimisation de la gestion des erreurs et des logs",
+                "Interface utilisateur plus réactive"
+            ]
+        },
+        "technical_improvements": {
+            "title": "🔹 Améliorations techniques",
+            "items": [
+                "Mise à jour du système de vérification des versions",
+                "Amélioration de la gestion des ressources système",
+                "Installation silencieuse des mises à jour"
+            ]
+        }
+    },
     "installer_url": "https://github.com/Sqwado/FGEX/releases/latest/download/FGEX_setup.exe"
-}
+} 
