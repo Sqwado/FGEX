@@ -1,35 +1,37 @@
 {
-    "latest_version": "1.3.0",
-    "description": "Téléchargement par lots (max 100 fichiers) 📦, création automatique des dossiers 📁, meilleure stabilité des téléchargements ⚡ et interface optimisée 🔄",
+    "latest_version": "1.4.0",
+    "description": "Page paramètres avancée ⚙️ et architecture modulaire 🔧",
     "features": {
         "major_improvements": {
             "title": "🔹 Améliorations majeures",
             "items": [
-                "Ajout d'un système de téléchargement par lots (maximum 100 fichiers par lot)",
-                "Optimisation de la gestion de la mémoire lors des téléchargements volumineux"
+                "Ajout d'une page paramètres complète avec personnalisation avancée",
+                "Refactorisation complète en architecture modulaire pour une meilleure maintenabilité"
             ]
         },
         "new_features": {
             "title": "🔹 Nouvelles fonctionnalités",
             "items": [
-                "Création automatique de dossiers de téléchargement par page",
-                "Meilleure gestion des fichiers temporaires (.crdownload)"
+                "Page paramètres avec configuration du dossier de téléchargement",
+                "Contrôle du nombre de fichiers téléchargés en parallèle",
+                "Sauvegarde des préférences utilisateur"
             ]
         },
         "fixes_and_optimizations": {
             "title": "🔹 Corrections et optimisations",
             "items": [
-                "Amélioration de la stabilité lors de l'arrêt des téléchargements",
-                "Optimisation de la gestion des erreurs et des logs",
-                "Interface utilisateur plus réactive"
+                "Amélioration des performances grâce à la modularisation",
+                "Optimisation de la gestion mémoire avec les téléchargements parallèles",
+                "Meilleure gestion des erreurs par module"
             ]
         },
         "technical_improvements": {
             "title": "🔹 Améliorations techniques",
             "items": [
-                "Mise à jour du système de vérification des versions",
-                "Amélioration de la gestion des ressources système",
-                "Installation silencieuse des mises à jour"
+                "Architecture modulaire avec séparation claire des responsabilités",
+                "Système de configuration centralisé",
+                "Gestion avancée des ressources système",
+                "Code plus maintenable et extensible"
             ]
         }
     },
